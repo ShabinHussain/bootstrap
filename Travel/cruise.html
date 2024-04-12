@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustTravel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./travel2css.css">
+    <link rel="icon" type="image/icon"  href="./image/icons8-airplane-64.png">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navi">
+    <div class="container-fluid bg-light navi2" >
+      <a id="logo" class="navbar-brand" href="./travel2.html"><img id="backgroundimg" src="./image/logo.png" alt="logo" height="50px" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="div1 collapse navbar-collapse " id="navbarSupportedContent">
+        <ul id="navi" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item " >
+            <a class="nav-link active" aria-current="page" href="./IndiaHolidays.html">
+              <div class="row h6 clr mt-2  intnl hovver">
+                INDIA HOLIDAYS
+              </div>
+            </a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="./International.html">
+            <div class="row h6 clr mt-2 hovver">
+              INTERNATIONAL HOLIDAYS
+              
+              
+            </div>
+            </a>
+
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cruise.html" >
+              <div class="row h6 clr clr1 mt-2 intnl hovver">
+                CRUISE
+                </div>
+              
+            </a>
+            </li>
+
+            <li class="nav-item px-5">
+              <a class="nav-link" href="./Flights.html" >
+                <div class="row h6 clr mt-2 hovver">
+                  FLIGHTS
+                  </div>
+                
+              </a>
+              </li>
+
+
+
+              <li class="nav-item justify-content-center" >
+                <a class="nav-link" href="./Hotels.html" >
+                  <div class="row h6  mt-2 intnl hovver clr">
+                    HOTELS
+                    </div>
+                  
+                </a>
+                </li>
+    
+  
+              <li id="navbtn" class="nav-item  px-5 justify-content-center " >
+                
+              <a class="nav-link" href="#" >
+                <div class="row h6 clr arrow mt-2 hovver1">
+                  LOGIN OR SIGN UP
+                </div>
+                 
+                </div>
+                
+              </a>
+              </li>
+              
+            
+        
+      </div>
+    </div>
+  </nav> 
+
+
+
+  <div class="container-fluid cruise1">
+
+    <h3 class="pt-5 cru1">Book Cruise</h3>
+
+    <div class="row f2 pt-5">
+      <form action="">
+        
+        <select name="city" id="city" form="" class="p-2 m-4 rounded cruise2">
+          <option value="">Select Departure City</option>
+
+          <option value="volvo">Abudhabi</option>
+          <option value="saab">Africa</option>
+          <option value="opel">Alaska</option>
+          <option value="audi">Australia</option>
+        </select>
+        
+
+
+        <select name="months" id="months" form="" class="p-2 m-4 rounded cruise2">
+          <option value="">Sail Months</option>
+
+          <option value="volvo">Mar-2024</option>
+          <option value="saab">Apr-2024</option>
+          <option value="opel">May-2024</option>
+          <option value="audi">Jun-2024</option>
+        </select>
+
+
+
+        <select name="nights" id="nights" form="" class="p-2 m-4 rounded cruise2">
+          <option value="">Select Nights</option>
+
+          <option value="volvo">1 to 3 night(s)</option>
+          <option value="saab">4 to 6 night(s)</option>
+          <option value="opel">7 to 9 night(s)</option>
+          <option value="audi">10 to 13 night(s)</option>
+        </select>
+
+
+
+        <select name="cruiseline" id="cruiseline" form="" class="p-2 m-4 rounded cruise2">
+          <option value="">Select Cruise Line</option>
+
+          <option value="volvo">Cordelia Cruise</option>
+          <option value="saab">Costa Cruises</option>
+          <option value="opel">MSC Cruises</option>
+          <option value="audi">Norwegian Cruise Line</option>
+        </select>
+
+
+
+
+
+
+        <button type="button" class="btn btn-danger p-2 mb-2 cruise2">Search</button>
+
+
+
+
+      </form>
+    </div>
+
+  </div>
+
+ <div class="container-fluid mt-5 text-danger">
+  <h2>Available Cruise</h2>
+
+ </div>
+
+ <div class="row mt-3">
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12  pt-5">
+    <div class="card hvr">
+      <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0102_Ship_Cruise_890.jpeg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">1 Night Mumbai-High Sea-Mumbai<span class="shipf">(1 Night / 2 Days)</span></h6>
+
+        <p class="card-text">Starting@ Rs.9,997</p>
+        <a href="" class="ship">Details</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://lccintl.ezeeibe.com/cruisextranet/COSTASE_Ship_Cruise_001.jpeg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Cruise Weekender<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.27,433</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://travel.usnews.com/dims4/USNEWS/90ba9c0/2147483647/resize/735x490%3E/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FViking_Ocean_Cruises_CRUISELINE-MAIN_2253.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Kochi Mumbai Delight<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.27,433</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://content.flightcentre.com/sites/default/files/NEW-ZEALAND_HOME.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title ">Kerala Delight<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.24,104</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Wonder_of_the_Seas.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Chennai Cruise<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.27,433</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://static.euronews.com/articles/stories/08/19/79/42/1440x810_cmsv2_4167b122-a96f-5f47-842b-5a86b911a8ee-8197942.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">2 Nighs Mumbai-Cochin<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.23,120</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-88332,resizemode-75,msid-101333679/news/new-updates/royal-caribbeans-icon-of-the-seas-set-to-become-worlds-largest-cruise-ship-in-january-2024.jpg"height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">2 Nights Mumbai-Cruising-Mumbai<span class="shipf">(2N / 3D)</span></h6>
+        <p class="card-text">Starting@ Rs.26,180</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://m.economictimes.com/thumb/msid-104591522,width-1200,height-900,resizemode-4,imgsize-72604/no-ship-for-three-year-cruise-life-at-sea.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Go Goa Gone<span class="shipf">(2 Nights / 3 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.24,104</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://www.ship-technology.com/wp-content/uploads/sites/8/2020/07/800px-Carnival_Breeze_.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Welsome To Chennai<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.36,154</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Carnival_Liberty_anchored_off_Nassau.jpg/640px-Carnival_Liberty_anchored_off_Nassau.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">3 Nights Cochin-Mumbai<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.39,015</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://img.cruisecritic.net/cms-sb/f/1005231/b60aa68826/mediterranean_western-mediterranean_europe_17665.jpg?auto=compress%2Cformat&fp-z=1&h=532&w=818&ar=3%3A2&dpr=2.625&q=15&ixlib=react-9.0.2" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">3 Nights Cochin-Ldweep-Mumbai<span class="shipf">(3N/4D)</span></h6>
+        <p class="card-text">Starting@ Rs.24,950</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/SP6NHN236FHONFEK76SNDH5VVE.jpg?_a=ATCqVhC0" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">3 Nights Mumbai -Mbai-At Sea-Mumbai<span class="shipf">(3N/4D)</span></h6>
+        <p class="card-text">Starting@ Rs.18,400</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://i.insider.com/5ac3f7ec7708e9038b04b709?width=700" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">3 Nights Mumbai -Mbai-High Sea-Mumbai<span class="shipf">(3N/4D)</span></h6>
+        <p class="card-text">Starting@ Rs.27,700</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2021/07/vw0715cruise.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Go-Goan Delight<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.36,154</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZz0h0T2mLqtDpybFTG1DbP-3txzOZMOfcfXTZJv35JfcJWv8YTI79_JayQxr3JvXcnfI&usqp=CAU" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Escape To Kochi<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.36,154</p> 
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://cdn.britannica.com/13/186113-050-FE14AC14/cruise-ship-port-Skagway-Alaska.jpg?w=400&h=300&c=crop" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Lakshadweep Cruise<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.41,444</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSMO_yLW_m_0cvgtEfYRKFjConu6HfXg4q9-Y2WXOpYHTAmXa8NJjrTHXGgBK0vfHqrA&usqp=CAU" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Cruise From Kochi<span class="shipf">(3 Nights / 4 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.41,444</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 pt-5">
+    <div class="card hvr">
+      <img src="https://www.hindustantimes.com/ht-img/img/2024/01/22/550x309/ROYAL-CARIBBEAN-PREVIEW-92_1705924847943_1705924876557.jpg" height="130px" class="card-img-top rounded" alt="...">
+      <div class="card-body text-dark">
+        <h6 class="card-title">Arabian Odyssey<span class="shipf">(4 Nights / 5 Days)</span></h6>
+        <p class="card-text">Starting@ Rs.50,606</p>
+        <a href="" class="ship">Details</a>
+
+
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+<footer class="container-fluid ftr bg-primary">
+
+  <div class="row pt-5">
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+      <div class="row">
+        <img src="./image/logo.png" alt="logo">
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 ">
+      <div class="row">
+        <h4>About Us</h4>
+      </div>
+      <div class="row ms-1">Blog</div>
+      <div class="row ms-1">Privacy Policy</div>
+      <div class="row ms-1">FAQ's</div>
+      <div class="row ms-1">Contact</div>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+      <div class="row"><h4>Contact Us</h4></div>
+      <div class="row ms-1">customercare@justtravel.in</div>
+      <div class="row ms-1">Tel (00 91 22) 4905 9100</div>
+      <div class="row ms-1">Fax (00 91 22) 4905 9800</div>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+      <div class="row"><h4>Quick Links</h4></div>
+      <div class="row ms-1">Career</div>
+      <div class="row ms-1">Help</div>
+      <div class="row ms-1">Home</div>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+      <div class="row "><h4>Social Share</h4></div>
+      <div class="row">
+        <div class="col-3"><i class="fa-brands fa-facebook fa-2x"></i></div>
+        <div class="col-3"><i class="fa-brands fa-twitter fa-2x"></i></div>
+        <div class="col-3"><i class="fa-brands fa-instagram fa-2x"></i></div>
+        <!--<div class="col-3"><i class="fa-brands fa-youtube fa-2x"></i></div>-->
+      </div>
+    </div>
+    <div class="col-1"></div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

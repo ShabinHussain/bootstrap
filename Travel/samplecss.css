@@ -1,0 +1,559 @@
+body{
+  overflow-x: hidden;
+  
+}
+
+.div1{
+   margin-left: 200px;
+}
+
+#logo{
+    padding-left: 100px;
+
+}
+
+.navi{
+    font-size: 12px;
+    
+
+}
+
+.navi2{
+ margin-top: -9px;
+
+}
+
+#arrow{
+    margin-left:30px;
+    margin-top: -18px;
+}
+
+#navbtn{
+    margin-left: 10px;
+   
+}
+
+.navbar1{
+   position: fixed;
+}
+
+.ftr{
+ height: 250px;
+}
+
+
+@media(min-width:350px){
+ 
+ #logo{
+   padding-left: 20px;
+ }
+
+ .intnl{
+   margin-left: 35px;
+ }
+
+ #navbtn{
+   margin-left: -2px;
+ }
+
+ .best{
+   height:1350px;
+ } 
+
+ .best1{
+   height: 1500px;
+   border-right: 5px solid yellow;
+   border-bottom: 5px solid yellow;
+   border-left: 5px solid red;
+   border-top: 5px solid red;
+ }
+
+ .dbs{
+   height: 400px;
+ }
+
+ .hi3{
+  height: 12px;
+  width: 100%;
+  background-color: black;
+}
+
+.h1{
+  height: 1500px;
+}
+
+.footer1{
+  margin-left: 1055px;
+}
+
+
+
+
+
+
+ 
+
+ 
+}
+
+.hi6{
+  height: 15px;
+  width: 150px;
+  background-color: blue;
+}
+
+.hi3{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+}
+
+@media(min-width:375px){
+ .ftr{
+   height:700px;
+ }
+
+}
+@media(min-width:750px){
+ .ftr{
+   height:250px;
+ }
+
+ #logo{
+   padding-left: 100px;
+
+}
+
+#navbtn{
+ width: 230px;
+}
+
+.intnl{
+ margin-left: 0px;
+}
+
+}
+
+.clr{
+ color: black;
+}
+
+.clr1{
+ color: blue;
+}
+
+.hovver{
+  font-size: 15px;
+}
+
+.hovver:hover{
+ color: red;
+
+   
+  
+}
+
+.hovver1:hover{
+   color: green;
+   
+
+}
+
+/*.heading{
+   height: 90px;
+   text-align: center;
+}
+*/
+.c1{
+   margin-top: -8px;
+}
+
+.f1{
+   height: 270px;
+   
+}
+
+.f2{
+   text-align: center;
+}
+
+.package1{
+   height: 1200px;
+}
+
+.package1 h2{
+   text-align: center;
+   text-decoration: underline;
+}
+
+.marg{
+  margin-top: 150px;
+}
+
+@media(min-width:360px){
+  .marg{
+    margin-top: 130px;
+  }
+  .package1{
+     height: 2500px;
+  }
+}
+
+@media(min-width:768px){
+  .marg{
+    margin-top: 40px;
+
+      
+  }
+  .package1{
+     height: 900px;
+  }
+}
+
+@media(min-width:1144px){
+  .marg{
+    margin-top: 170px;
+
+      
+  }
+  .package1{
+     height: 1000px;
+  }
+}
+
+
+@media(min-width:1311px){
+  .marg{
+    margin-top: 200px;
+
+      
+  }
+  .package1{
+     height: 1200px;
+  }
+}
+
+@media(min-width:1429px){
+  .marg{
+    margin-top: 250px;
+
+      
+  }
+  .package1{
+     height: 1200px;
+  }
+}
+
+@media(min-width:1700px){
+  .marg{
+    margin-top: 300px;
+
+      
+  }
+  .package1{
+     height: 1300px;
+  }
+}
+
+@media(min-width:1906px){
+  .marg{
+    margin-top: 380px;
+
+      
+  }
+  .package1{
+     height: 1500px;
+  }
+}
+
+
+@media(min-width:2200px){
+  .marg{
+    margin-top: 410px;
+
+      
+  }
+  .package1{
+     height: 1600px;
+  }
+}
+
+@media(min-width:2370px){
+  .marg{
+    margin-top: 440px;
+
+      
+  }
+  .package1{
+     height: 1700px;
+  }
+}
+
+
+@media(min-width:2583px){
+  .marg{
+    margin-top: 550px;
+
+      
+  }
+  .package1{
+     height: 1700px;
+  }
+}
+
+
+
+/*International form --------------------------------------------------------------------------------------------*/
+
+
+
+
+@media(min-width:414px){
+  .bn{
+    margin-top: 50px;
+
+      
+  }
+ 
+}
+
+
+
+
+
+
+
+
+.marg1{
+  margin-left: 180px;
+}
+
+
+
+.hvr:hover{
+  transform: scale(1.04);
+  transition: 0.2s ease;
+
+}
+
+
+
+
+.aus{
+  margin-left: -16px;
+}
+
+.aus1{
+  
+  width: 300px;
+  height: 400px;
+}
+
+.marg2{
+  margin-top: 220px;
+
+
+}
+
+
+
+/*cruise-----------------------------------------------------*/
+
+.cruise1{
+ height: 300px;
+ /*background-color: yellow;*/
+ background-image: url(./image/cruise\ \(1\).jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.cru1{
+ text-align: center;
+}
+
+.cruise2{
+ width: 250px;
+}
+
+.ship{
+ text-decoration: none;
+}
+
+.shipf{
+ font-size: 12px;
+}
+
+
+/*Flights-------------------------------------*/
+
+
+.flights1{
+ height: 500px;
+ /*background-color: yellow;*/
+ background-image: url(https://webcdn.infiniteflight.com/blog/content/images/2023/06/Blog.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+/*hotels-----------------------------------*/
+
+.hotels1{
+ height: 500px;
+ /*background-color: yellow;*/
+ background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/51/94/f1/exterior.jpg?w=1200&h=-1&s=1);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.left1{
+ margin-left: 200px;
+}
+
+.banner{
+ margin-left: -12px;
+}
+
+/*flight2------------------------------------------------------*/
+
+
+/*.dbs{
+ height: 280px;
+}*/
+
+ /*---------------------*/
+
+ .kin{
+   height: 400px;
+   width: 1100px;
+   margin-left: 200px;
+ }
+
+ .hi{
+   height: 12px;
+   width: 100%;
+   background-color: orange;
+ }
+ .mar{
+   margin-top: 19px;
+ }
+ 
+ .hi1{
+   height: 25px;
+   width: 100%;
+   background-color: rgba(223, 80, 223, 0.853);
+ }
+
+ .hi2{
+   background-color: rgba(135, 207, 235, 2);
+ }
+
+ 
+
+ @media(min-width:375px){
+   .trusted{
+     margin-left: 33px;
+ 
+       
+   }
+
+   .trusted1{
+     margin-left: -60px;
+ 
+       
+   }
+ }
+
+ @media(min-width:750px){
+   
+   .trusted{
+     margin-left: 0px;
+ 
+       
+   }
+
+   .trusted1{
+     margin-left: 0px;
+ 
+       
+   }
+
+
+   .hi1{
+     margin-top: 20px;
+   }
+
+   .hi4{
+     margin-top: 43px;
+
+
+
+   }
+
+   .best{
+     height: 800px;
+    }
+
+    
+ .best1{
+   height: 500px;
+   border-right: 5px solid yellow;
+   border-bottom: 5px solid yellow;
+   border-left: 5px solid red;
+   border-top: 5px solid red;
+
+
+
+ }
+
+ .dbs{
+   height: 280px;
+}
+
+
+ }
+
+
+
+
+  /*travel1....form------------------*/
+
+
+  .fill{
+   height: 300px;
+   width: 1000px;
+   background-image: url(https://assets.zeezest.com/blogs/PROD_Monsoon-Trek_1621485182124_thumb_1200.jpeg);
+ }
+
+ .nm1{
+   width: 305px;
+ }
+
+ .hrule1{
+   height: 5px;
+   width: 90px;
+
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+   .fill {
+     height: 100%;
+     width: 100%;
+     
+
+
+   }
+
+   
+ }
+
+
+
+   
+
+
+
+
+
+

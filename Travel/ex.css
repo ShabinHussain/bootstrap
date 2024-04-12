@@ -1,0 +1,48 @@
+/*.clicker {
+    width:100px;
+    height:100px;
+    background-color:blue;
+    outline:none;
+    cursor:pointer;
+    }
+    
+    .hiddendiv{
+    display:none;
+    height:200px;
+    background-color:green;
+    }
+    
+    .clicker:focus + .hiddendiv{
+    display:block;
+    }*/
+
+
+
+    .rad,
+.set {
+  display: none;
+  opacity: 0;
+}
+
+.rad:checked+.set {
+  display: block;
+  opacity: 1;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px inset grey;
+  border-radius: 6px;
+  padding: 2px 3px;
+  cursor: pointer
+}
+
+.btn:hover {
+  border-color: tomato;
+  color: tomato;
+  transition: .75s ease;
+}
+
+legend {
+  font-size: 1.5em
+}

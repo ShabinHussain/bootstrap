@@ -1,0 +1,137 @@
+.background{
+    width: auto;
+    height: 570px;
+    background-image: url(https://i.redd.it/6uycyxbvini91.jpg);
+    
+}
+
+#backgroundimg{
+    filter: brightness(70%);
+}
+
+.div1{
+   margin-left: 200px;
+}
+
+#logo{
+    padding-left: 100px;
+
+}
+
+#navi{
+    font-size: 12px;
+}
+
+#arrow{
+    margin-left:30px;
+    margin-top: -18px;
+}
+
+#navbtn{
+    margin-left: 10px;
+    background-color: rgba(0, 0, 255, 0.622);
+    border-radius: 15px;
+}
+
+.navi{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .rad,
+.set {
+  display: none;
+  opacity: 0;
+}
+
+.rad:checked+.set {
+  display: block;
+  opacity: 1;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px inset grey;
+  border-radius: 6px;
+  padding: 2px 3px;
+  cursor: pointer
+}
+
+.btn:hover {
+  border-color: blue;
+  color: blue;
+  transition: .75s ease;
+}
+
+legend {
+  font-size: 1.5em
+}
+
+
+
+.bgdiv{
+    /*background-color: white;*/
+    /*width:950px;
+    height: 100px;
+    border-radius: 10px;*/
+    margin-left: 250px;
+    margin-top: 70px;
+    /*font-size: 50px;*/
+    
+    
+}
+
+
+.fbg{
+    width: 1200px;
+    height: 300px;
+    margin-left: -100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fbg2{
+    width: 1200px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: 170px;
+    border-radius: 10px;
+
+}
+
+.box{
+    width: 197px;
+}
+
+.boxheight{
+    height: 90px;
+}
+
+.travellno{
+    width: 100px;
+    height: 90px;
+    
+
+}
+
+.travel{
+    margin-left: -60px;
+}
+
+.b1{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 500px;
+}

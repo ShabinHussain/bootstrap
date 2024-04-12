@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustTravel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./travel2css.css">
+    <link rel="icon" type="image/icon"  href="./image/icons8-airplane-64.png">
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navi">
+    <div class="container-fluid bg-light navi2" >
+      <a id="logo" class="navbar-brand" href="./travel2.html"><img id="backgroundimg" src="./image/logo.png" alt="logo" height="50px" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="div1 collapse navbar-collapse " id="navbarSupportedContent">
+        <ul id="navi" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item " >
+            <a class="nav-link active" aria-current="page" href="./IndiaHolidays.html">
+              <div class="row h6 clr mt-2  intnl hovver">
+                INDIA HOLIDAYS
+              </div>
+            </a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="./International.html">
+            <div class="row h6 clr mt-2 hovver">
+              INTERNATIONAL HOLIDAYS
+              
+              
+            </div>
+            </a>
+
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cruise.html" >
+              <div class="row h6 clr mt-2 intnl hovver">
+                CRUISE
+                </div>
+              
+            </a>
+            </li>
+
+            <li class="nav-item px-5">
+              <a class="nav-link" href="./Flights.html" >
+                <div class="row h6 clr mt-2 hovver">
+                  FLIGHTS
+                  </div>
+                
+              </a>
+              </li>
+
+
+
+              <li class="nav-item justify-content-center" >
+                <a class="nav-link" href="./Hotels.html" >
+                  <div class="row h6  mt-2 intnl hovver clr clr1">
+                    HOTELS
+                    </div>
+                  
+                </a>
+                </li>
+    
+  
+              <li id="navbtn" class="nav-item  px-5 justify-content-center " >
+                
+              <a class="nav-link" href="#" >
+                <div class="row h6 clr arrow mt-2 hovver1">
+                  LOGIN OR SIGN UP
+                </div>
+                 
+                </div>
+                
+              </a>
+              </li>
+              
+            
+        
+      </div>
+    </div>
+  </nav> 
+
+
+  <div class="container-fluid hotels1">
+
+    <h3 class="pt-5 cru1">Book Hotels Online</h3>
+
+    <div class="row f2 pt-5">
+      <form action="">
+        
+     
+        <input type="text" id="toCity" name="toCity" placeholder="Where:Enter a City" class="p-2  rounded cruise2">
+        <input type="text" id="date" name="toCity"  placeholder="Check In" class="p-2  textbox-n  rounded cruise2" onfocus="this.type='date'" onblur="this.type='text'">
+        <input type="text" id="date" name="toCity"  placeholder="Check Out" class="p-2   textbox-n  rounded cruise2" onfocus="this.type='date'" onblur="this.type='text'">
+
+
+
+        
+
+
+
+        <select name="cruiseline" id="cruiseline" form="" class="p-2   rounded cruise2 text-secondary">
+          <option value="">Adult <span>(+12 years)</span> </option>
+
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+         
+        </select>
+
+
+        <select name="cruiseline" id="cruiseline" form="" class="p-2  rounded cruise2 text-secondary">
+            <option value="">Children <span>(0-12 years)</span> </option>
+  
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            
+  
+        </select>
+
+
+        <select name="cruiseline" id="cruiseline" form="" class="p-2  rounded cruise2 text-secondary">
+            <option value="">Infant <span>(below 2 years)</span> </option>
+            
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+           
+  
+          </select>
+
+
+          <select name="cruiseline" id="cruiseline" form="" class="p-2  rounded cruise2 text-secondary">
+            <option value="">Rooms </option>
+
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+  
+           
+           
+  
+          </select>
+
+       
+
+
+        
+          
+
+
+
+
+
+
+        <button type="button" class="p-2 mt-0 btn btn-danger cruise2">Search</button>
+
+
+
+
+      </form>
+    </div>
+
+  </div>
+
+
+  <div class="container-fluid banner">
+    <!--<img src="https://www.sotc.in/images/home-page-banners/2021/june/Flight-Hotel-Banner1-1920x545.jpg" alt="img">-->
+
+
+  </div>
+
+
+  <div class="container">
+    <h3 class="text-danger mt-5">Online Hotel Booking</h3>
+    <p>Hotel booking and flight booking is a big-ticket item in the checklist when any travel is planned. Be it for leisure or business, on domestic or international shores, if you are travelling, you definitely need a good and decent place to stay.</p>
+    <p>Though you will always get recommendations from friends, family and acquaintances, you would always feel more comfortable if you could get more than a glimpse of the place you would choose to stay.  Our online hotel booking system ensures that you get to view the best pool of options before you decide your choice of hotel accommodation.</p>
+    <p>With us, you can choose the type of accommodation you want to stay at; be it a hotel, a Bed & Breakfast or even a resort. Want to know how the place of accommodation is rated? We will categorize the same as per the ratings you need - be it 3 stars, 4 stars or 5 stars.</p>
+    <p>Closer to the city, closer to the airport, budget hotel or a luxury hotel etc., we assure best prices for your online hotel bookings. You can also view images of the hotels and the rooms and choose the ambience that suits your taste.  Want to know if the food is good or if there is WiFi at your hotel? Well, we can help you make an informed decision of choosing the right hotel by checking the feedback and reviews posted by the patrons and visitors.</p>
+    <p>We offer the best to our customers. Hence we have discounted rates and special offers on online hotel bookings for you. Our payment gateway has been simplified further to make it easier for you to pay either through debit card, credit card and even through internet banking when you book a hotel online of your choice and liking.</p>
+    <p>We want you to stay in the best place, irrespective of where you choose to go. Next time you want to book a hotel online, come to us at SOTC. We will find the perfect home away from home for you.</p>
+  </div>
+
+ 
+
+
+
+
+  <footer class="container-fluid ftr bg-primary">
+
+    <div class="row pt-5">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="row">
+          <img src="./image/logo.png" alt="logo">
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 ">
+        <div class="row">
+          <h4>About Us</h4>
+        </div>
+        <div class="row ms-1">Blog</div>
+        <div class="row ms-1">Privacy Policy</div>
+        <div class="row ms-1">FAQ's</div>
+        <div class="row ms-1">Contact</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+        <div class="row"><h4>Contact Us</h4></div>
+        <div class="row ms-1">customercare@justtravel.in</div>
+        <div class="row ms-1">Tel (00 91 22) 4905 9100</div>
+        <div class="row ms-1">Fax (00 91 22) 4905 9800</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+        <div class="row"><h4>Quick Links</h4></div>
+        <div class="row ms-1">Career</div>
+        <div class="row ms-1">Help</div>
+        <div class="row ms-1">Home</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-light ms-5 text-light">
+        <div class="row "><h4>Social Share</h4></div>
+        <div class="row">
+          <div class="col-3"><i class="fa-brands fa-facebook fa-2x"></i></div>
+          <div class="col-3"><i class="fa-brands fa-twitter fa-2x"></i></div>
+          <div class="col-3"><i class="fa-brands fa-instagram fa-2x"></i></div>
+          <!--<div class="col-3"><i class="fa-brands fa-youtube fa-2x"></i></div>-->
+        </div>
+      </div>
+      <div class="col-1"></div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </footer>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
